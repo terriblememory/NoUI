@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		953F9BAD2BDC3DA2001C3040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F9BAC2BDC3DA2001C3040 /* AppDelegate.m */; };
 		953F9BAF2BDC3DA3001C3040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953F9BAE2BDC3DA3001C3040 /* Assets.xcassets */; };
-		953F9BB22BDC3DA3001C3040 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 953F9BB12BDC3DA3001C3040 /* Base */; };
 		953F9BB42BDC3DA3001C3040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F9BB32BDC3DA3001C3040 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -18,7 +17,6 @@
 		953F9BAB2BDC3DA2001C3040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		953F9BAC2BDC3DA2001C3040 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		953F9BAE2BDC3DA3001C3040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		953F9BB12BDC3DA3001C3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		953F9BB32BDC3DA3001C3040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		953F9BB52BDC3DA3001C3040 /* NoUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +54,6 @@
 				953F9BAB2BDC3DA2001C3040 /* AppDelegate.h */,
 				953F9BAC2BDC3DA2001C3040 /* AppDelegate.m */,
 				953F9BAE2BDC3DA3001C3040 /* Assets.xcassets */,
-				953F9BB02BDC3DA3001C3040 /* MainMenu.xib */,
 				953F9BB32BDC3DA3001C3040 /* main.m */,
 				953F9BB52BDC3DA3001C3040 /* NoUI.entitlements */,
 			);
@@ -121,7 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				953F9BAF2BDC3DA3001C3040 /* Assets.xcassets in Resources */,
-				953F9BB22BDC3DA3001C3040 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,17 +134,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		953F9BB02BDC3DA3001C3040 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				953F9BB12BDC3DA3001C3040 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		953F9BB62BDC3DA3001C3040 /* Debug */ = {

@@ -1,14 +1,11 @@
-//
-//  AppDelegate.h
-//  NoUI
-//
-//  Created by Brian Syme on 4/26/24.
-//
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@import MetalKit;
 
+#define let __auto_type const
+#define var __auto_type
+
+@interface AppDelegate : NSObject <NSApplicationDelegate, MTKViewDelegate>
 
 @end
-

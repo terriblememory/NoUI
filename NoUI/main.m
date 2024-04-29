@@ -1,15 +1,16 @@
-//
-//  main.m
-//  NoUI
-//
-//  Created by Brian Syme on 4/26/24.
-//
 
 #import <Cocoa/Cocoa.h>
+#import "AppDelegate.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // Setup code that might create autoreleased objects goes here.
+int main(int argc, const char * argv[])
+{
+    @autoreleasepool
+    {
+        let app_delegate = [[AppDelegate alloc] init];
+        let app = NSApplication.sharedApplication;
+        app.delegate = app_delegate;
+        [app run];
     }
-    return NSApplicationMain(argc, argv);
+    
+    return 0;
 }
