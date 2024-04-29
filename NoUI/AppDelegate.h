@@ -3,6 +3,7 @@
 
 @import MetalKit;
 
+// Quality of life #defines...
 #define let __auto_type const
 #define var __auto_type
 

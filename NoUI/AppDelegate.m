@@ -1,15 +1,9 @@
 
 #import "AppDelegate.h"
 
-#pragma mark - AppDelegate Interface
-
 @interface AppDelegate ()
 
-@property (strong) IBOutlet NSWindow *window;
-
 @end
-
-#pragma mark - AppDelegate Implementation
 
 @implementation AppDelegate
 {
@@ -79,20 +73,6 @@
 /**
 */
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication*)sender
-{
-    return YES;
-}
-
-/**
-*/
-- (void)applicationWillTerminate:(NSNotification*)aNotification
-{
-    // Insert code here to tear down your application
-}
-
-/**
-*/
-- (BOOL)applicationSupportsSecureRestorableState:(NSApplication*)app
 {
     return YES;
 }
